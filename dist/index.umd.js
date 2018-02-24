@@ -1,4 +1,4 @@
-/** @preserve ZeonWang 0.0.6 Last Build: Sat, 24 Feb 2018 10:03:22 GMT */
+/** @preserve ZeonWang 0.0.6 Last Build: Sat, 24 Feb 2018 10:22:01 GMT */
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
 	typeof define === 'function' && define.amd ? define(factory) :
