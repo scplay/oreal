@@ -2,9 +2,10 @@
   "name": "oreal",
   "version": "0.0.3",
   "description": "is that object has real property ?",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
   },
   "keywords": [
     "isset",
@@ -16,5 +17,9 @@
     "url": "https://github.com/scplay/oreal.git"
   },
   "author": "Zeon Wang",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.56.2",
+    "rollup-plugin-json": "^2.3.0"
+  }
 }

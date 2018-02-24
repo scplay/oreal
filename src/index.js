@@ -1,4 +1,4 @@
-function oreal(obj, getters) {
+export default function oreal(obj, getters) {
 	if (! obj) return false;
 
 	if (typeof getters === 'string') {
@@ -17,5 +17,3 @@ function oreal(obj, getters) {
  	
  	return true;
 }
-
-module.exports = oreal;
